@@ -1,0 +1,9 @@
+---
+title: "Chapter 2"
+---
+
+```{=html}
+<p><embed src="ch2.pdf" style="width:100.0%;height:100.0vh" /></p>
+```
+
+---

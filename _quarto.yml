@@ -1,0 +1,29 @@
+project:
+  type: website
+  resources:
+        - ch1.pdf
+        - ch2.pdf
+        - ch3.pdf  
+
+website:
+  title: "PGRch123"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: ch1.qmd
+        text: "Chapter 1"
+      - href: ch2.qmd
+        text: "Chapter 2"
+      - href: ch3.qmd
+        text: "Chapter 3"
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
